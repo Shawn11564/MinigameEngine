@@ -1,0 +1,8 @@
+name: MinigameEngine
+version: '1.0.0'
+main: dev.mrshawn.minigameengine.MinigameEngine
+api-version: '1.21'
+prefix: MinigameEngine
+authors: [ MrShawn ]
+description: A powerful engine to create any type of minigame you can imagine
+website: https://mrshawn.dev/

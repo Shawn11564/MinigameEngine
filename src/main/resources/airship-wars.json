@@ -1,0 +1,41 @@
+{
+  "id": "airship-wars",
+  "meta": {
+    "display-name": "Airship Wars",
+    "description": ["A game you fight from your airships for total supremacy"],
+    "authors": ["MrShawn"],
+    "version": "1.0.0",
+    "genres": ["PvP"]
+  },
+  "game": {
+    "world": {
+      "type": "map",
+      "folder": "AirshipWarsTemplate"
+    },
+    "teams": {
+      "type": "dynamic"
+    },
+    "phases": [
+      {
+        "type": "wait",
+        "duration": 60,
+        "actions": [
+          {
+            "type": "broadcast",
+            "message": "Game starting in %s seconds",
+            "loop": 10
+          }
+        ]
+      },
+      {
+        "type": "play",
+        "duration": 60000,
+        "actions": [
+          {
+
+          }
+        ]
+      }
+    ]
+  }
+}
